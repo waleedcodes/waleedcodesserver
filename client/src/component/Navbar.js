@@ -34,7 +34,7 @@ const Navbar = (props) => {
         <nav className={`navbar navbar-expand-lg top_nav py-3 navbar-${props.mode} bg-${props.mode}`}>
           <div className="container">
             <div className="waleednav">
-              <Link onClick={() => props.setProgress(100)} className={`navbar-brand fw-bold text-${props.mode === 'dark' ? 'white' : 'dark'}`} to={""} >
+              <Link onClick={() => props.setProgress(100)} className={`navbar-brand fw-bold text-${props.mode === 'dark' ? 'white' : 'dark'}`} to={"/"} >
                 <img src={img1} alt="" className="img-fluid navbar_img" onClick={() => props.setProgress(100)} href="/" />
               </Link>
             </div>
@@ -46,9 +46,6 @@ const Navbar = (props) => {
             </button>
             <div className="collapse navbar-collapse nav_main " id="navbarSupportedContent">
               <ul className="navbar-nav nav_ul ms-auto">
-                {/* <li className="nav-item">
-                <Link className={` text-${ props.mode === 'dark' ? 'white' : 'dark' }`} to={"./home.html"}>Home</Link>
-              </li> */}
                 <li className="nav-item dropdown g-0">
                   <Link onClick={() => props.setProgress(100)} className={`dropdown-toggle text-${props.mode === 'dark' ? 'white' : 'dark'}`} to={"#About"} id="navbarDarkDropdownMenuLink" role="button"
                     data-bs-toggle="dropdown" aria-expanded="false">

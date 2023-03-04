@@ -82,7 +82,7 @@ const App = () => {
           {/* <Route path="/formtext" element={<Formtext mode={mode} setProgress={setProgress} showAlert={showAlert} />} /> */}
           <Route path="/about" element={<About />} />
           <Route
-            path=""
+            path="/"
             element={
               <Home
                 mode={mode}
