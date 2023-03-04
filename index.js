@@ -21,9 +21,9 @@ const middleware = (req, res) => {
   // next();
 };
 
-app.get("/", (req, res) => {
-  res.send(`This is a home page `);
-});
+// app.get("/", (req, res) => {
+//   res.send(`This is a home page `);
+// });
 // app.get( '/about', middleware, ( req, res ) =>
 // app.get('/about', (req, res) => {
 //     res.send(`This is a about page `);
